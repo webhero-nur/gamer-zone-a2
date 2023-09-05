@@ -1,0 +1,371 @@
+/* commons styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+.font-work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    border-radius: 24px;
+    padding: 12px 20px;
+    border: 0;
+}
+
+.primary-btn {
+    color: white;
+    background-color: #FF42A5;
+}
+
+.btn-2 {
+    color: white;
+    background-color: #4EC5F7;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* navbar styles */
+.navbar {
+    justify-content: space-between;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.logo-title {
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo-title h3 {
+    font-size: 32px;
+}
+
+.logo-title h3 span {
+    color: #FF42A5;
+}
+
+nav .links ul {
+    align-items: center;
+    column-gap: 24px;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.nav-social {
+    column-gap: 8px;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgba(11, 2, 35, 0.1);
+}
+
+/* banner styles here */
+.banner-top {
+    justify-content: space-between;
+    background-image: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-top>div {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-text {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.moto-text h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.moto-text h1 {
+    font-size: 64px;
+    background: linear-gradient(180deg, #FF42A5, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner-service {
+    flex-direction: column;
+    row-gap: 12px;
+    color: gray;
+}
+
+.banner-service i {
+    color: #8758F1;
+}
+
+img {
+    width: 100%;
+}
+
+/* we are gamer section */
+.we-are-gamer-section {
+    background-color: rgba(255, 66, 165, 0.03);
+}
+
+.we-are-gamer {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.we-are-gamer-img-container {
+    width: 60%;
+}
+
+.we-are-gamer-info {
+    text-align: right;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.we-are-gamer-info>h2 {
+    font-size: 36px;
+    background: linear-gradient(180deg, #FF42A5, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.we-are-gamer-info>p,
+.we-are-gamer-info h5 {
+    color: gray;
+    margin-bottom: 6px;
+}
+
+/* online games funny videos */
+.funny-videos-section {
+    max-width: 1150px;
+    margin: 50px auto;
+}
+
+.funny-videos-section>div {
+    text-align: center;
+}
+
+.funny-videos-section>div>h3 {
+    font-size: 36px;
+}
+
+.funny-videos-section>div>h3>span {
+    background: linear-gradient(180deg, #FF42A5, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.funny-videos-section>div>p {
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.funny-videos {
+    justify-content: space-between;
+}
+
+.video-thumbnail {
+    position: relative;
+}
+
+.video-thumbnail {
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.video-thumbnail>img {
+    border-radius: 16px;
+}
+
+.video-thumbnail a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    top: 0;
+    left: 0;
+    height: 98.75%;
+    width: 100%;
+    border-radius: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-thumbnail:hover a {
+    display: flex;
+}
+
+.video-thumbnail a i {
+    font-size: 32px;
+}
+
+.video-thumbnail a span {
+    color: #FF42A5;
+}
+
+/* play instantly & play games online */
+.play-instantly,
+.play-games-online {
+    max-width: 1150px;
+    margin: 50px auto;
+}
+
+.play-instantly-text,
+.play-games-online-text {
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.play-instantly-text>div,
+.play-games-online-text>div {
+    width: 55%;
+}
+
+.play-instantly-text>div>h3,
+.play-games-online-text>div>h3 {
+    font-size: 35px;
+}
+
+.play-instantly-text>div>h3>span {
+    color: #FF42A5;
+}
+
+.play-instantly-text>div>p,
+.play-games-online-text>div>p {
+    margin-top: 20px;
+}
+
+.play-instantly-img {
+    position: relative;
+    justify-content: flex-end;
+}
+
+.play-instantly-img .section-img,
+.play-games-online-img .section-img {
+    width: 85%;
+}
+
+.play-instantly-img .img-overlay {
+    width: 170px;
+    position: absolute;
+    bottom: -85px;
+    left: 0;
+}
+
+.play-games-online {
+    margin-top: 150px;
+}
+
+.play-games-online-text {
+    text-align: left;
+}
+
+.play-games-online-text>div>h3>span {
+    background: linear-gradient(180deg, #FF42A5, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.play-games-online-img {
+    position: relative;
+    justify-content: flex-start;
+}
+
+.play-games-online-img .img-overlay {
+    width: 170px;
+    position: absolute;
+    bottom: -85px;
+    right: 0;
+}
+
+/* careers section */
+.careers {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: #FF42A5;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.careers-content {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    column-gap: 50px;
+    color: white;
+}
+
+.careers-content>div {
+    align-items: center;
+}
+
+.careers-content>div>div {
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.careers-content h3 {
+    font-size: 32px;
+}
+
+.careers-content .careers-details {
+    text-align: justify;
+}
+
+.careers .jobs {
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.careers .jobs .locations {
+    text-align: right;
+}
+
+.careers .jobs p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.careers-content button {
+    color: #FF42A5;
+}
+
+.careers-img img {
+    scale: 135%;
+}
