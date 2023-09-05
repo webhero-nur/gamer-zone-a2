@@ -1,0 +1,148 @@
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .navbar .links ul,
+    .banner-top div,
+    .we-are-gamer,
+    .funny-videos,
+    .play-instantly,
+    .play-games-online,
+    .careers>div {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    .banner-top div,
+    .we-are-gamer div,
+    .play-instantly div,
+    .play-games-online div,
+    .careers div div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img,
+    .play-games-online-text {
+        order: 1;
+    }
+
+    .banner-text,
+    .play-games-online-img {
+        order: 2;
+    }
+
+    .careers-details,
+    .jobs {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .jobs {
+        font-size: 12px;
+        flex-direction: row;
+    }
+
+    .jobs-title p {
+        text-align: left;
+    }
+
+    .category {
+        padding: 4px;
+    }
+
+    .category img {
+        width: 22px;
+    }
+
+    .category h5 {
+        padding-left: 4px;
+        font-size: 10px;
+    }
+
+    footer .social-links {
+        width: 50%;
+    }
+
+    footer .policy-links {
+        width: 65%;
+    }
+}
+
+/* Tablet devices */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .banner-text {
+        padding-left: 20px;
+    }
+    
+    .we-are-gamer>div {
+        width: 50%;
+    }
+    
+    .we-are-gamer-info {
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .we-are-gamer-img-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .funny-videos {
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .funny-videos>div {
+        width: 50%;
+    }
+
+    .play-instantly-text>div,
+    .play-games-online-text>div {
+        width: 85%;
+    }
+    .careers-content>div {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .careers-content .jobs {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .careers-content .action-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .careers-img {
+        display: none;
+    }
+
+    .category img {
+        width: 32px;
+    }
+
+    .category h5 {
+        padding-left: 4px;
+        font-size: 14px;
+    }
+
+    footer .links,
+    footer .policy-links {
+        width: 75%;
+    }
+
+    footer .social-links {
+        width: 25%;
+    }
+}
